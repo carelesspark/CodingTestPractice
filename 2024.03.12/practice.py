@@ -174,6 +174,3 @@
 # print(result)
 
 # 결과 : ['c', 'h', 'i', 'c', 'k', 'e', 'n']
-from datetime import datetime
-seoul = datetime.strftime(datetime.now(), "%Y-%m-%d")
-print(seoul)
