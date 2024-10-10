@@ -22,7 +22,5 @@ public class Baekjoon_1924 {
         totalDays += day;
 
         System.out.println(week[totalDays % 7]);
-
-        
     }
 }
