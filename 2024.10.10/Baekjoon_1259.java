@@ -15,6 +15,7 @@ public class Baekjoon_1259 {
                 break;
             }
 
+            
             String reversedN = sb.append(n).reverse().toString();
 
             if(n.equals(reversedN)) {
