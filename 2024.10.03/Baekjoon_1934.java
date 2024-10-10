@@ -49,7 +49,7 @@ public class Baekjoon_1934 {
 
             sb.append(lcm(A, B)).append("\n");
         }
-
+ 
         sb.deleteCharAt(sb.length() - 1);
 
         System.out.println(sb);
