@@ -6,7 +6,6 @@ public class Baekjoon_1259 {
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-
         while (true) {
             StringBuilder sb = new StringBuilder();
 
