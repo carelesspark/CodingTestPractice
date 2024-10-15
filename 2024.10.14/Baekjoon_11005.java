@@ -22,5 +22,6 @@ public class Baekjoon_11005 {
 
             N = N / B;
         }
+        System.out.println(sb.reverse());
     }
 }
