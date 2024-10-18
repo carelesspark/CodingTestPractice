@@ -21,6 +21,7 @@ public class Baekjoon_11655 {
                 sb.append(ch);
             }
         }
+        
         System.out.println(sb.toString());    
     }
 }
