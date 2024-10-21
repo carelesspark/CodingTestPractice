@@ -16,18 +16,10 @@ public class Baekjoon_4796 {
                 return;
             }
 
+            int result = (V / P) * L + Math.min(V % P, L);
 
-            if(V % P == 0) {
-                System.out.println("Case " + T +": " +  (V / P) * L);
-            } else {
-                if((V % P) > L){
-                    System.out.println("Case " + T +": " +  (((V / P) * L) + L));
-                } else {
-                    System.out.println("Case " + T +": " +  (((V / P) * L) + (V % P)));
-                }
-                
-            }
-
+            System.out.println("Case " + T + ": " + result);
+        
             T++;
         }
     }
