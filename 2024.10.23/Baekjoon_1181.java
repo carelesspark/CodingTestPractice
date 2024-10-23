@@ -27,6 +27,5 @@ public class Baekjoon_1181 {
         for(String result : newArr) {
             System.out.println(result);
         }
-        
     }    
 }
