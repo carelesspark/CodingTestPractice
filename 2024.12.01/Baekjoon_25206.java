@@ -20,6 +20,7 @@ public class Baekjoon_25206 {
             if(score[i][2].equals("P")){
                 continue;
             }
+            
             gradeTotal += Double.parseDouble(score[i][1]);
 
             for(int j = 0; j < gradeAlpha.length; j++) {
@@ -34,12 +35,6 @@ public class Baekjoon_25206 {
             }
         }
 
-        
-
-        for(int i = 0; i < 20; i++) {
-            
-        }
-        
         double result = scoreSum / gradeTotal;
         System.out.printf("%.6f", result);  
     }
