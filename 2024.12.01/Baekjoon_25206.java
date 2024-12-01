@@ -9,6 +9,7 @@ public class Baekjoon_25206 {
         double[] scoreNum = {4.5, 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.0};
 
         double gradeTotal = 0;
+        double scoreSum = 0;
 
         for(int i = 0; i < 20; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -20,11 +21,7 @@ public class Baekjoon_25206 {
                 continue;
             }
             gradeTotal += Double.parseDouble(score[i][1]);
-        }
 
-        double scoreSum = 0;
-
-        for(int i = 0; i < 20; i++) {
             for(int j = 0; j < gradeAlpha.length; j++) {
                 if(gradeAlpha[j].equals(score[i][2])) {
                     if(score[i][2].equals("P")) {
@@ -36,10 +33,14 @@ public class Baekjoon_25206 {
                 }
             }
         }
+
+        
+
+        for(int i = 0; i < 20; i++) {
+            
+        }
         
         double result = scoreSum / gradeTotal;
-        System.out.printf("%.6f", result); 
-        
-        
+        System.out.printf("%.6f", result);  
     }
 }
