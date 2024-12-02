@@ -35,8 +35,6 @@ public class Baekjoon_1476 {
             tempS++;
             tempM++;
 
-            System.out.println(tempE + ", " + tempS + ", " + tempM);
-
             if(E == tempE && S == tempS && M == tempM) {
                 break;
             }
