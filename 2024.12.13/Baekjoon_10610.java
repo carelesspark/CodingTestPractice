@@ -25,7 +25,6 @@ public class Baekjoon_10610 {
         Arrays.sort(temp);
         sb.append(temp).reverse();
         System.out.println(sb);
-
     }
 }
 
