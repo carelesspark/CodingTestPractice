@@ -18,7 +18,6 @@ public class Baekjoon_3986 {
                     }
                 }
                 deque.addFirst(c);
-                System.out.println(deque.toString());
             }
 
             if(deque.isEmpty()) {
