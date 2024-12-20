@@ -1,3 +1,4 @@
+// DFS 방식
 import java.util.*;
 import java.io.*;
 
@@ -26,7 +27,7 @@ public class Baekjoon_2606 {
 
         visited = new boolean[n + 1];
         dfs(1);
-        System.out.println(count - 1); // 1번 컴퓨터 제외
+        System.out.println(count - 1);
     }
 
     public static void dfs(int node) {
@@ -41,6 +42,7 @@ public class Baekjoon_2606 {
     }
 }
 
+// BFS 방식
 // import java.util.*;
 // import java.io.*;
 
